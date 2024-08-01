@@ -1,0 +1,132 @@
+body {
+    background-image: url('seamless-pattern-with-delicious-vegan-drinks-tasty-juices-smoothies-made-berries-fruits-vegetables-black-background_198278-1635.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #4B0082; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
+#result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+    border:2px solid white;
+
+}
+
+.result-box {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    text-align: center;
+    height: 150px;
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+    border: 2px solid white;
+}
+
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    
+    #result-container {
+        text-align: center;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .result-box {
+        margin: 20px 0;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        transition: background-color 0.3s;
+    }
+    
+    .result-box:hover {
+        background-color: #e6e6e6; 
+    }
+    
+    button {
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }
+.result-box:hover {
+    background-color: rgba(75, 0, 130, 0.5); 
+}
+
+h2 {
+    font-size: 24px;
+    color: #4B0082; 
+}
+
+p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#quote-result {
+    font-style: italic;
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    color: white; 
+    margin:50px;
+}
+
+button {
+    background-color: #4B0082; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #3a006e; 
+}
+#result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    background-color:rgba(0,0,0,0.7);
+}

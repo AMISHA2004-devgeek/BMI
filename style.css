@@ -1,0 +1,182 @@
+ody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+body {
+    background-image: url('bg_img.jpeg'); 
+    background-size: cover;
+    background-attachment: fixed; 
+    background-color:black; 
+  }
+  
+.navbar {
+    background-color: #333; 
+    overflow: hidden;
+    transition: 0.5s; 
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.navbar a:hover {
+    background-color: #555; 
+    color: white;
+}
+
+.logo {
+    float: left;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333; 
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    
+    .navbar {
+        overflow: hidden;
+    }
+
+    .logo {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .nav-list {
+        text-align: center;
+        width: 100%;
+        padding-top: 10px;
+    }
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6fa; 
+    color: #333; 
+}
+
+#calculator {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out; 
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo img {
+    height: 40px; 
+    margin-right: 10px;
+}
+
+h2 {
+    color: #9370db; 
+}
+
+p {
+    line-height: 1.6;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #9370db; 
+}
+
+select,
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #9370db; 
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#image-container img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    animation: slideIn 1s ease-in-out; 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
